@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
             ["@types/testing-library__jest-dom", "npm:5.14.7"],\
+            ["cross-env", "npm:7.0.3"],\
             ["eslint-config-react-app", "virtual:e94f5be53cef54ab6c9d5b77253f1b12495f5aa42f4542860b8381dd70a6edd837339ca3b6fea6438c9b5cdf4f1dc64bf55109e27f2c3a1095b483a60b6b0a25#npm:7.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e94f5be53cef54ab6c9d5b77253f1b12495f5aa42f4542860b8381dd70a6edd837339ca3b6fea6438c9b5cdf4f1dc64bf55109e27f2c3a1095b483a60b6b0a25#npm:18.2.0"],\
@@ -7206,6 +7207,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["cross-env", [\
+        ["npm:7.0.3", {\
+          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.3-96d81820f4-26f2f3ea2a.zip/node_modules/cross-env/",\
+          "packageDependencies": [\
+            ["cross-env", "npm:7.0.3"],\
+            ["cross-spawn", "npm:7.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cross-spawn", [\
         ["npm:7.0.3", {\
           "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-671cc7c728.zip/node_modules/cross-spawn/",\
@@ -7841,6 +7852,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
             ["@types/testing-library__jest-dom", "npm:5.14.7"],\
+            ["cross-env", "npm:7.0.3"],\
             ["eslint-config-react-app", "virtual:e94f5be53cef54ab6c9d5b77253f1b12495f5aa42f4542860b8381dd70a6edd837339ca3b6fea6438c9b5cdf4f1dc64bf55109e27f2c3a1095b483a60b6b0a25#npm:7.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e94f5be53cef54ab6c9d5b77253f1b12495f5aa42f4542860b8381dd70a6edd837339ca3b6fea6438c9b5cdf4f1dc64bf55109e27f2c3a1095b483a60b6b0a25#npm:18.2.0"],\
