@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Route, Router } from 'react-router-dom';
+import { history } from "./utils/history";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Router history={history}>
+      {/* App 컴포넌트 내에서 중첩 라우팅 */}
+      <Route component={App}/>
+    </Router>
   </React.StrictMode>
 );
 

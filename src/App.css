@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.component {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.warn {
+  background-color: orangered;
+}
+
+.info {
+  background-color: dodgerblue;
+}
+
+.caption {
+  font-size: 1rem;
+  text-align: center;
+  width: 200px;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+a {
+  color: inherit;
+  cursor: auto;
+}
+
+.active {
+  font-weight: bold;
+  color: red;
+}
